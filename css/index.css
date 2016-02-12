@@ -1,0 +1,114 @@
+/* CSS file for index.html */
+/* Author: Hian Neiva */
+
+body{ /* Estilo do Corpo */
+	margin: 0;
+	color: #fff;
+	font-family: 'Roboto', 'Open Sans', 'Helvetica', 'sans-serif';
+	font-size: 11px;
+}
+
+button{ /* Estilos dos botões laterais */
+	color: #fff;
+	font-family: 'Roboto', 'Open Sans', 'Helvetica', 'sans-serif';
+	font-size: 11px;
+	text-align: left;
+}
+
+#preload{ /* Tela de Preload */
+	background: -webkit-linear-gradient(left, #444, #222);
+	background: -o-linear-gradient(right, #444, #222);
+	background: -moz-linear-gradient(right, #444, #222);
+	background: linear-gradient(to right, #444, #222);
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	text-align: center;
+	line-height: 100vh;
+	font-size: 300%;
+}
+
+#sidebar{ /* Estilo da barra lateral */
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 16vw;
+	height: 100vh;
+	float: left;
+	background: #222;
+}
+
+#show{ /* Estilo de onde se mostra as imagens */
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 100vh;
+	background: -webkit-radial-gradient(#777, #222);
+	background: -o-radial-gradient(#777, #222);
+	background: -moz-radial-gradient(#777, #222);
+	background: radial-gradient(#777, #222);
+}
+
+#centerer{ /* Centralizador de elementos */
+	position: fixed;
+	top: 50%;
+	margin-top: -24px;
+	width: 16vw;
+}
+
+.side-button{ /* Estilo do botão */
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 2px 4px;
+	margin: auto 0;
+	cursor: pointer;
+	width: 100%;
+	height: 24px;
+	background: -webkit-linear-gradient(left, #444, #222);
+	background: -o-linear-gradient(right, #444, #222);
+	background: -moz-linear-gradient(right, #444, #222);
+	background: linear-gradient(to right, #444, #222);
+	border: 1px solid gray;
+}
+
+.clicked-button{ /* Botão clicado */
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 2px 4px;
+	margin: auto 0;
+	cursor: pointer;
+	width: 100%;
+	height: 24px;
+	background: -webkit-linear-gradient(left, #AAA, #777);
+	background: -o-linear-gradient(right, #AAA, #777);
+	background: -moz-linear-gradient(right, #AAA, #777);
+	background: linear-gradient(to right, #AAA, #777);
+	border: 1px solid #58D;
+}
+
+.right-show{ /* Div onde se dará o espaço de exibição */
+	display: inherit;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.draggable{ /* Propriedades de elementos arrastáveis */
+	position: fixed;
+	margin: 40px 20px;
+	border: solid 8px white;
+	-webkit-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+.aus-img{ /* Definição tamanho de imagens da gleria 'Austrália' */
+	width: 7%;
+	height: auto;
+}
+
+.bra-img{ /* Definição tamanho de imagens da gleria 'Brasil' */
+	width: 10%;
+	height: auto;
+}

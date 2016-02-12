@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta author="Hian Neiva">
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+		<!-- Importação dos estilos da página e do Swipebox -->
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/swipebox.css">
+		<title>Protótipo de Interface Touch</title>
+	</head>
+	<body>
+		
+		<!-- Div de Preloading (Para sistemas menos eficientes) -->
+		<div id="preload"> Carregando... </div>
+		
+		<!-- Barra lateral de galeria -->
+		<div id="sidebar">
+			<div id="centerer">
+				<button class="side-button">Austrália</button>
+				<button class="side-button">Brasil</button>
+			</div>
+		</div>
+
+		<!-- Seção onde se mostrará as imaens da galeria -->
+		<div id="show">
+
+			<!-- Galeria: Austrália -->
+			<div id="aus-show" class="right-show">
+
+				<a rel="a" href="img/aus/01.jpg" class="swipebox">
+					<img class="draggable aus-img" style="top:0; left:20%;" src="img/aus/01.jpg">
+				</a>
+
+				<a rel="a" href="img/aus/02.jpg" class="swipebox">
+					<img class="draggable aus-img" style="top:0; left:35%;" src="img/aus/02.jpg">
+				</a>
+
+				<a rel="a" href="img/aus/03.jpg" class="swipebox">
+					<img class="draggable aus-img" style="top:0; left:50%;" src="img/aus/03.jpg">
+				</a>
+
+				<a rel="a" href="img/aus/04.jpg" class="swipebox">
+					<img class="draggable aus-img" style="top:0; left:65%;" src="img/aus/04.jpg">
+				</a>
+
+				<a rel="a" href="img/aus/05.jpg" class="swipebox">
+					<img class="draggable aus-img" style="top:0; left:80%;" src="img/aus/05.jpg">
+				</a>
+
+			</div>
+
+			<!-- Galeria: Brasil -->
+			<div id="bra-show" class="right-show">
+			
+				<a rel="b" href="img/bra/01.jpg" class="swipebox">
+					<img class="draggable bra-img" style="top:0; left:20%;" src="img/bra/01.jpg">
+				</a>
+
+				<a rel="b" href="img/bra/02.jpg" class="swipebox">
+					<img class="draggable bra-img" style="top:0; left:35%;" src="img/bra/02.jpg">
+				</a>
+
+				<a rel="b" href="img/bra/03.jpg" class="swipebox">
+					<img class="draggable bra-img" style="top:0; left:50%;" src="img/bra/03.jpg">
+				</a>
+
+				<a rel="b" href="img/bra/04.jpg" class="swipebox">
+					<img class="draggable bra-img" style="top:0; left:65%;" src="img/bra/04.jpg">
+				</a>
+
+				<a rel="b" href="img/bra/05.jpg" class="swipebox">
+					<img class="draggable bra-img" style="top:0; left:80%;" src="img/bra/05.jpg">
+				</a>
+
+			</div>
+
+		</div>
+		<script src="js/index.js"></script>
+		<!-- Script da biblioteca interact.js para movimentação drag 'n drop
+			 Open Source (MIT License) -->
+		<script src="js/interact-1.2.4.min.js"></script>
+		<script src="js/drag.js"></script>
+		<!-- Script da biblioteca Swipebox para Slideshow de imagens
+			 Open Source (MIT License) -->
+		<script src="js/jquery-2.1.0.min.js"></script>
+		<script src="js/jquery.swipebox.js"></script>
+		<script src="js/slide.js"></script>
+	</body>
+</html>
